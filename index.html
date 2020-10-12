@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="images/x-icon" href="./image/myself.jpg">
     <title>Ebuka chris | Front-end Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta name="description" content="Ebuka Chris is a front-end developer who enjoys building world class website">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -13,137 +15,161 @@
 </head>
 
 <body>
-    
-       
-        <div class="menu">
-            <i class="fas fa-code fa-2x"></i>
-        <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>  
-       
-        <nav>
-            <i class="fas fa-code fa-2x"></i>
-            <label for="toggle">&#9776;</label>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#profession">Skill set</a></li>
-            <li><a href="#section">Services</a></li>
-            <li><a href="#">Home</a></li>
-          </nav>
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
         </div>
-<div class="container">       
-<div class="main">
-    <h1>Hello,<span style="color: #D8AE47;"><i class="far fa-hand-paper"></i></span> I'm Ebuka Chris</h1>
+<div class="container-fluid">       
+<div class="main" id="home">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <span onclick="openNav()" class="opennav">&#9776;</span>
+    <div class="img-feel-home">
+        <img src="./image/feel_home.svg" alt="img-illustrator" height="180" width="220" >
+    </div>
+    <h1>Hello,👋 I'm Ebuka Chris </h1>
     <h2>
         <span
         class="txt-rotate"
         data-period="2000"
-        data-rotate='[ "A Front-end developer", "A Tech Enthusiast", "An SEO Specialist"]'></span>
+        data-rotate='[ "A web developer", "A Tech Enthusiast", "An SEO Specialist"]'></span>
     </h2>
     <div class="cv">
-        <a href="#myself"><h4>Click to see me</h4></a>
+        <a href="./image/MiracleChristian.pdf" download><h4>Download CV</h4></a>
     </div>
 </div>
-<div class="section" id="section">Services</div>
-<div class="fast wow slideInRight">
-    <i class="fab fa-safari fa-7x"></i>
+
+<div class="background-cover">
+    <svg>
+        <clipPath id="wave" clipPathUnits="objectBoundingBox">
+          <path class="st0" d="M1,0c0,0-0.3,0.1-0.5,0.1S0.3,0,0,0.1V1h1L1,0z"/>
+        </clipPath>
+    </svg>
+<div class="fast wow zoomInUp" id="services">
+    <img src="./image/visuals.svg" alt="" height="120" width="120">
     <p><span>Fast</span><br>Fast load time and lag free interaction, my highest priority</p>
 </div>
-<div class="fast wow slideInRight">
-    <i class="fas fa-mobile fa-7x"></i>
+<div class="fast wow fadeIn">
+    <img src="./image/responsive.svg" alt="" height="120" width="120">
     <p><span>Responsiveness</span><br>My layout will work on any device big,medium and small</p>
 </div>
-<div class="fast wow slideInRight">
-    <i class="fas fa-universal-access fa-7x"></i>
+<div class="fast wow zoomInDown">
+    <img src="./image/programmer.svg" alt="" height="120" width="120">
     <p><span>Intuition</span><br>Strong preference for easy to use. intuitive UX/UI</p>
 </div>
-<div class="fast wow slideInRight">
-    <i class="fab fa-sellsy fa-7x"></i>
+<div class="fast wow rollIn" id="coding">
+    <img src="./image/coding.svg" alt="" height="120" width="120">
     <p><span>Dynamic</span><br>Websites don't have to be static. I love making pages come to life
     by using animations</p>
 </div>
-<div class="figure wow slideInLeft">
-    <img src="./image/creativity.jpg" height="330" width="350" alt="creativity">
+<div class="figure wow zoomIn" >
+    <p style="color: #0e4d92;">SKILL-SET</p>
+    <p>Bootstrap<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"style="color:#fff;"></i>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+        <p>HTML<span><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+            <p>CSS<span><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                <p>JavaScript<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                    <p>Jquery<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                        <p>PHP<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"style="color:#fff;"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                            <p>SQL<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                <p>SASS\SCSS<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"style="color:#fff;"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                    <p>REACT<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"style="color:#fff;"></i>
+                                        <i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                        <p>SEO<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                                            <p>PHOTOSHOP<span><i class="fas fa-star"style="color:#fff;"></i><i class="fas fa-star"style="color:#fff;"></i>
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+    
 </div>
-<div class="figure  wow slideInLeft">
-    <img src="./image/seo.jpg" height="330" width="350" alt="SEO optimization">
+
+<div class="figure  wow zoomIn" id="about">
+    <h2 style="margin-left: 7px; font-weight: normal;color: #0e4d92;"">About me & what I do</h2>
+    <p style="margin-left: 7px;line-height: 25px;">I am a motivated front-end developer and a computer scientist, whose goal is to improve
+        companies visual design, modify its animation to get visitors engaged, increased its 
+        intereactivity features and solve its lazy loading problem. I like football, good music and technology.
+        You can visit my github repo <button><a href="https://www.github.com/mayor09">Click Here</a> </button> &nbsp; click/hover
+        on the image.
+    </p><br>
+    <div class="container">
+        <div class="social">
+           <a href="https://facebook.com/ebukachris.mayor"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        </div>
+        <div class="social">
+            <a href="https://instagram.com/ebuka_chris"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/ebukachris9"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="social">
+            <a href="https://linkedin.com/in/ebukachris"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div class="social">
+            <a href="https://github.com/mayor09"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
+        <img src="./image/myself.jpg" alt="Ebuka chris" height="150" width="170" class="img-chris">
+
+
+
 </div>
-<div class="figure  wow slideInLeft">
-    <img src="./image/illustrator.jpg" height="330" width="350" alt="world class design"> 
 </div>
 
 <div>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-efa5d9d9-8336-457a-a3f2-bef6e9b4ba3b"></div>
 </div>
-
-
-
-<div class="section"style='text-align:center;'>Skill-set</div>
-
-<div class="hardskills wow rotateIn">
-    <p>HTML</p>
-<div class="fluid">
-  <div class="skills html">90%</div>
-</div>
-
-<p>CSS</p>
-<div class="fluid">
-  <div class="skills css">80%</div>
-</div>
-
-<p>JavaScript</p>
-<div class="fluid">
-  <div class="skills js">65%</div>
-</div>
-
-<p>Jquery</p>
-<div class="fluid">
-  <div class="skills jquery">60%</div>
-</div>
-</div>
-
-<div class="profession wow rotateIn" id="profession">
-    <h2 style="margin-left: 7px; font-weight: normal;">About me & what I do</h2>
-    <p style="margin-left: 7px;">I am a motivated front-end developer and a computer scientist, whose goal is to improve
-        companies visual design, modify its animation to get visitors engaged, increased its 
-        intereactivity features and solve its lazy loading problem. I like football, good music and technology.
-        You can visit my github repo <a href="https://www.github.com/mayor09">to view my web App projects</a> 
-
-    </p>
-</div>
-
-<div class="photo wow rotateIn">
-    <img src="./image/myself.jpg" height="350" max-width="350" alt="front-end" id="myself">
 </div>
 
 <footer id="contact">
-    <div class="right">
-        <h2 style="margin-left: 5px;font-weight: normal;color: #D8AE47;">Contact me</h2>
-        <p style="margin-left: 5px;">Interested in working together? wherever you are ,<br>with your idea or project, I will
-            be glad to help.<br> Ready to make a difference?
-        </p> 
-        <i class="fas fa-envelope"></i><span>ebukachris09@gmail.com</span><br>
-        <i class="fas fa-phone"></i><span>+234-808-846-0283</span><br>
-        <i class="fas fa-map-marker-alt"></i><span>Enugu, Nigeria</span><br>
-    </div>
-<div class="left">
-    <p>You can follow me on my social media handle</p>
-	<a href="https://www.twitter.com/ebukachris9"><i class="fab fa-twitter fa-2x"></i></a>
-	<a href="https://www.github.com/mayor09"><i class="fab fa-github fa-2x"></i></a>
-    <a href="https://www.linkedin.com/in/ebukachris"><i class="fab fa-linkedin fa-2x"></i></a>
-    <a href="https://www.instagram.com/ebuka_chris"><i class="fab fa-instagram fa-2x"></i></a>
-
-    <p> &copy; <script>document.write( new Date().getFullYear() );</script>, All Right Reserved.</p>
-</div>
+    <p style="color: #fff;"> Send mail to ebukachris09@gmail.com<a href="mailto:ebukachris09@gmail.com">
+        <i class="fab fa-telegram fa-2x"style="color:#fff"></i></a>
+        <p style="color: #fff;">call me on the Phone&nbsp;<a href="+2348088460283"><i class="fas fa-phone-square fa-2x"
+            style="color:#fff"></i></a> Lets solve a problem</p>
+        
+       <p style="color: #fff;"> Built with <i class="fas fa-heart"style="color:darkred"></i>&nbsp;By Echris IT solution</p>
+        <p style="color: #fff;">All Right Reserved, &copy; 2020 Mywebsite Inc.Terms and Condition.</p>
+    </p>
 
 </footer>
-
-
-    </div>
 
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
     <script src="script.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+<script>
+    $(document).ready(function(){
+      $(".loader").fadeOut(4000, function(){
+        $(".container-fluid").fadeIn(1000);
+      });
+    });
+  </script>
+
+     </div>
     </body>
     </html>
