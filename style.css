@@ -232,6 +232,7 @@ border-radius: 5px;
     top: -60px;
     left: -67px;
     border-radius: 50%;
+    Z-index: 10;
     
 }
 .social img{
