@@ -381,7 +381,7 @@ footer{
 
 .main .cv{height: 40px;border-radius: 8px;line-height: -30px;width: 140px;margin-top: 1rem;}
 .main .cv h4{font-size: 15px; color: #ddd;}
-.background-cover{ height: 140rem; top: -14rem;position: relative;width: 100%;}
+.background-cover{ height: 144rem; top: -14rem;position: relative;width: 100%;z-index: 10}
 
 .fast{margin-left: 30%; width:60%; height: 200px;position: relative;top: -1rem;}
 #coding{top: 5.3rem;margin-left: 30%;position: relative;float: left;}
