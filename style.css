@@ -255,7 +255,7 @@ letter-spacing: 3px;
 
 .main .cv{height: 40px;border-radius: 8px;line-height: -30px;width: 140px;margin-top: 1rem;}
 .main .cv h4{font-size: 15px; color: #ddd;}
-.background-cover{ height: 144rem; top: -16rem;position: relative;width: 100%; z-index: 10; float: left}
+.background-cover{ height: 144rem; top: -16rem;position: relative;width: 100%; float: left}
 
 .fast{margin-left: 30%; width:60%; height: 210px;position: relative;top: -0.5rem; float: left;background-color: transparent;}
 #coding{top: 5.3rem;margin-left: 30%;position: relative;float: left;}
