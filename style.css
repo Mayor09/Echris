@@ -26,9 +26,9 @@
       font-size: 2rem;
       cursor: pointer;
       margin: 7px 8px;
-      border: 1px solid #0e4d92;
-      padding: 6px 10px;
-      border-radius: 50%;
+      border: 1px outset #0e4d92;
+      padding: 3px 8px;
+     
   }
   
   .sidenav a {
