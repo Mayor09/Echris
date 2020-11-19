@@ -1,6 +1,6 @@
  html,body{
  width:100%;
- font-family: "ubuntu",sans-serif;
+ font-family: "Raleway",sans-serif;
  background-color: #ddd;
  margin: 0;
  height: 100%;
@@ -9,7 +9,7 @@
  
 
  .sidenav {
-    height: 100%;
+    height: 25%;
     width: 0;
     position: fixed;
     z-index: 500;
@@ -27,7 +27,7 @@
       cursor: pointer;
       margin: 7px 8px;
       border: 1px solid #0e4d92;
-      padding: 8px 12px;
+      padding: 6px 10px;
       border-radius: 50%;
   }
   
@@ -63,11 +63,12 @@
  
 
  .main{
-            
+           
     width: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0, 0, 0, 0.9)),url(./image/monitor.jpg);
     height: 95vh;
     float: left;
+   
 }
 .img-feel-home{
     float: left;
@@ -134,7 +135,6 @@
     width: 100%;
     clip-path: url(#wave);
     -webkit-clip-path: url(#wave);
-    -moz-clip-path: url(#wave);
     
 }
 .fast{
@@ -149,6 +149,11 @@
 }
 .fast p{
     color: #201e1f;
+}
+
+.img-svg{
+    height: 120px;
+    width: 120px;
 }
 #coding{
 
@@ -209,8 +214,6 @@ text-align: center;
 font-size: 0.9rem;
 color: #ddd;
 margin-top: 1.5rem;
-word-spacing: 2px;
-letter-spacing: 3px;
 }
 .fa-facebook{
     color: #213f57;
@@ -245,20 +248,25 @@ letter-spacing: 3px;
 
     
 
+/* Mobile device */
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width: 900px) {
-
-.opennav{color: #ddd; font-size: 1.6rem; margin: 8px 9px; padding: 5px 10px;}
-.img-feel-home{height: 180px;width: 220px;float: left;margin-top: 1.5rem; margin-left: -30px;}
-.main h1{font-size: 1.8em; margin-top: 2.5rem;}
+.opennav{color: #ddd; font-size: 1.6rem; margin: 9px 10px; padding: 3px 6px;}
+.img-feel-home{height: 180px;width: 220px;float: left;margin-top: 2.2rem; margin-left: -22px;}
+.main h1{font-size: 1.8em; margin-top: 3.5rem;}
 .main h2{font-size: 1.5em;margin-top: 3.5rem;}
 
 .main .cv{height: 40px;border-radius: 8px;line-height: -30px;width: 140px;margin-top: 1rem;}
 .main .cv h4{font-size: 15px; color: #ddd;}
-.background-cover{ height: 144rem; top: -16rem;position: relative;width: 100%; float: left}
+.background-cover{ height: 144rem;width: 100%; float: left;clip-path: none; background-color: transparent; margin-top: 80px;}
 
-.fast{margin-left: 30%; width:60%; height: 210px;position: relative;top: -0.5rem; float: left;background-color: transparent;}
-#coding{top: 5.3rem;margin-left: 30%;position: relative;float: left;}
+.img-svg{ height: 100px; width: 100px; }
+.fast{margin-left: 20%; width:65%; height: 240px; float: left; position: absolute; top: -55px; background-color: transparent;}
+#responsiveness{top: 2rem; float: left; position: relative;background-color: #fff; 
+    border-radius: 0;  padding-left: 30px; margin-left: 17%;}
+#programmer{top: -3.5rem; float: left; position: relative; background-color: #fff; 
+    border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 30%;   padding-left: 30px; margin-left: 17%;}
+#coding{margin-top: -8.7rem;margin-left: 22%;float: left;}
 .fast p{color:  rgba(11, 12, 12, 0.7);}
 .fast p span{font-size: 25px;}
 
@@ -272,8 +280,24 @@ border-bottom-left-radius: 8rem;}
 .img-chris{position: relative;top: 30px;left: 77px;border-radius: 50%}
 .svg{display: block}
 footer {height: 230px;}
-footer p{letter-spacing: 0; word-spacing: 0;}
+}
 
+/* Tablet device */
+@media screen and (min-width: 601px) and (max-width: 1200px){
 
+    .img-feel-home{height: 180px;width: 220px;float: left;margin-top: 3.3rem; margin-left: -30px;}
+    .main h1{font-size: 2.2em; margin-top: 13rem;}
+    .main h2{font-size: 1.9em;margin-top: 3.5rem;}
+
+.fast{margin-left: 10px; width:43%; height: 210px;position: relative; float: left;}
+#coding{top: 10rem;margin-left: 10px;position: relative;float: left;}
+#programmer{float: right;}
+#responsiveness{float: right; margin-top: -4.3rem;}
+.fast p span{font-size: 30px;}
+
+.figure-cover{float: left; background-color: #fff;height: 650px; margin-top: 11rem; border-bottom-left-radius: 8rem;}    
+.figure{margin-left:5%; width: 40%;height:450px }
+
+.background-cover{height: 1360px;position: relative;width: 100%;clip-path: none;z-index: 100; float: left}
 
 }
