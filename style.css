@@ -251,7 +251,7 @@ margin-top: 1.5rem;
 /* Mobile device */
 @media screen and (max-width: 600px) {
 
-.opennav{color: #ddd; font-size: 1.6rem; margin: 9px 10px; padding: 3px 6px;}
+.opennav{color: #ddd; font-size: 1.6rem; margin: 9px 10px; padding: 5px 10px;}
 .img-feel-home{height: 180px;width: 220px;float: left;margin-top: 2.2rem; margin-left: -22px;}
 .main h1{font-size: 1.8em; margin-top: 3.5rem;}
 .main h2{font-size: 1.5em;margin-top: 3.5rem;}
