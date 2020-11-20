@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="theme-color" content="rgba(0, 0, 0, 0.7)">
     <link rel="shortcut icon" type="images/x-icon" href="./image/myself.jpg">
-    <title>Front-end Developer | Ebuka Chris </title>
+    <title>A creative web developer | Ebuka Chris </title>
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta name="description" content="Ebuka Chris is a web developer who enjoys building world class website">
@@ -153,9 +153,28 @@
 
 
 <script src="js/wow.min.js"></script>
+<script src="jquery-3.3.1.js"></script>
 <script>
 new WOW().init();
 </script>
      
+    <script>
+
+
+        $(document).ready(function(){
+            $('a').on('click', function(event){
+                if(this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop:
+                        $(hash).offset().top },800, function(){
+                            window.location.hash = hash;
+                        });
+                    }
+                });
+            });
+        
+    </script>
     </body>
     </html>
