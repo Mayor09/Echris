@@ -10,7 +10,7 @@
  
 
  .sidenav {
-    height: 27%;
+    height: 30%;
     width: 0;
     position: fixed;
     z-index: 500;
@@ -20,6 +20,8 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    
+    
   }
   .opennav{
       color: #ddd;
@@ -69,6 +71,7 @@
     background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0, 0, 0, 0.9)),url(./image/monitor.jpg);
     height: 95vh;
     float: left;
+   
    
 }
 .img-feel-home{
@@ -192,11 +195,22 @@ border-radius: 5px;
     top: 20px;
     left: 77px;
     border-radius: 50%;
+     
+}
+
+.youtube{
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-top: 8px;
     
-    
+}
+.view, .view1,.view2{
+    margin-left: 20px;
 }
 .svg{
     display: none;
+    float: left;
 }
 
 footer{
@@ -252,10 +266,10 @@ margin-top: 1.5rem;
 
 .opennav{color: #ddd; font-size: 1.4rem; margin: 9px 10px;}
 .img-feel-home{height: 180px;width: 220px;float: left;margin-top: 2.2rem; margin-left: -22px;}
-.main h1{font-size: 1.8em; margin-top: 3.8rem;}
+.main h1{font-size: 1.8em; margin-top: 4.3rem;}
 .main h2{font-size: 1.5em;margin-top: 3.5rem;}
 
-.main .cv{height: 40px;border-radius: 8px;line-height: -30px;width: 140px;margin-top: 1rem;}
+.main .cv{height: 40px;border-radius: 8px;line-height: -30px;width: 140px;margin-top: 0.2rem;}
 .main .cv h4{font-size: 15px; color: #ddd;}
 .background-cover{ height: 144rem;width: 100%; float: left;clip-path: none; background-color: transparent; margin-top: 80px;}
 
@@ -271,13 +285,15 @@ margin-top: 1.5rem;
 
 
 #coding{top: 88px;left: -8px;position: relative;z-index: 111;}
-.figure-cover{float: left; background-color: #fff;height: 1000px; margin-top: 9rem;
+.figure-cover{float: left; background-color: #fff;height: 990px; margin-top: 9rem;
 border-bottom-left-radius: 8rem;}
 
-.figure{margin-left:8px; width: 90%;height:450px }
+.figure{margin-left:8px; width: 90%;height:450px ;}
 .figure p{color:  #383837;}
 .img-chris{position: relative;top: 30px;left: 77px;border-radius: 50%}
-.svg{display: block}
+.youtube{height: 610px; top: -220px; position: relative;}
+.view,.view1,.view2{width: 90%; height: 200px;}
+.svg{display: block; float: left; position: relative; top: 30px;}
 footer {height: 230px;}
 }
 
@@ -298,5 +314,7 @@ footer {height: 230px;}
 .figure{margin-left:5%; width: 40%;height:450px }
 
 .background-cover{height: 1360px;position: relative;width: 100%;clip-path: none;z-index: 100; float: left}
-
+.youtube{margin-top: 20px;}
+.youtube{height: 280px; top: 30px; position: relative;}
+.
 }
